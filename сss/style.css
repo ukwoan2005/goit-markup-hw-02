@@ -1,0 +1,162 @@
+body, h1, h2, h3, p, ul, li, address{
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: "Raleway", sans-serif
+}
+button{
+    cursor: pointer;
+}
+header{
+    background-color: #ffffff;
+    padding: 10px 20px;
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-text{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.menu-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+.menu-link:hover{
+    color: #404bbf;
+} 
+.menu-link:focus{
+    color: #404bbf;
+}
+.address-class{
+    font-style: normal;
+} 
+.contact-link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+.contact-link:hover{
+    color: #404bbf;
+}  
+.contact-link:focus{
+    color: #404bbf;
+}
+.section1{
+    background-color: #2e2f42;
+}
+.section-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.section-button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.section-button:hover,
+.section-button:focus{
+    background-color: #404BBF;
+}
+.section2{
+    background-color: #2e2f42;
+}
+.visually-hidden{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.section3{
+    background-color: #F4F4FD;
+}
+.section3 h3{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.list-item{
+    min-height: 3em;
+}
+.list-item h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.list-item p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.list-item:nth-child(odd){
+    background-color: #FFFFFF;
+}
+.custom-heading{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.custom-heading-small{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.custom-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer{
+    background-color: #2e2f42;
+    color: #F4F4FD;
+    padding: 20px;
+}
